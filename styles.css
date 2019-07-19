@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Nebraska2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,10 +71,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1.0s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -118,6 +118,14 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.body-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+border-radius: 5px;
 }
 
 footer {
